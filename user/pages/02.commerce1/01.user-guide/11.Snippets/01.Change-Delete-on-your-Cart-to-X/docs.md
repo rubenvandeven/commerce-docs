@@ -3,7 +3,7 @@ title: Change "Delete" on your Cart to X
 taxonomy:
     category: docs
 ---
-
+```php
 <?php
 /**
 * Implements hook_form_alter().
@@ -22,3 +22,4 @@ function themename_form_alter(&$form, $form_state, $form_id) {
   }
 }
 ?>
+```
